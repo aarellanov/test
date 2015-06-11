@@ -3,8 +3,8 @@ Instructions
 
 sudo apt-get update
 
-sudo apt-get install awscli -y
-sudo apt-get install ruby2.0 -y
+sudo apt-get install ruby2.0 awscli -y
+
 
 cd /home/ubuntu
 
