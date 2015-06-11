@@ -12,9 +12,9 @@ permissions:
      type:
        - file
 hooks:
-   #BeforeInstall:
-    #- location: scripts/installapache.sh
-    #  runas: root
+   BeforeInstall:
+    - location: scripts/before.sh
+      runas: root
     #- location: scripts/startapache.sh
     #  runas: root
    #AfterInstall:
